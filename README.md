@@ -17,7 +17,7 @@ Cliquer sur les cartes pour découvrir les paires de cartes identiques
 A chaque paire découverte, il est possible de donner une réponse.
 Une paire retournée donne un indice supplémentaire et enlève des points.
 Chaque fausse réponse enlève des points.
-Le score est affiché et s'incrémente à chaque paire retournée.
+Le score est affiché et sse décrémente à chaque paire retournée.
 
 Un bouton "Découvrir" permet de découvrir un paire et un indice, mais enlève des points.
 On ne peut utiliser le bouton "Découvrir" que 3 fois
