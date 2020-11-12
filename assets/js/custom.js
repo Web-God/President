@@ -10,13 +10,17 @@ document.addEventListener("DOMContentLoaded", function (event) {
   }
   let cardBack = document.querySelectorAll('.mask');
   let timeFront;
-  // let flipCard = () => cardBack.classList.add('back');
+// Add class to see tips of game on the back of the card
   function flipCard() {
     this.classList.add('back');
   }
+  // Remove class to see the mask
   timeFront = setInterval(() => {
-    document.querySelector('.mask').classList.remove('back');
-  }, 300);
+    for (let i = 0; i < cardBack.length; i++) {
+      const el = cardBack[i];
+      el.classList.remove('back');
+    }
+  }, 10000);
   cardBack.forEach(function (mask) {
     mask.addEventListener('click', flipCard);
   });

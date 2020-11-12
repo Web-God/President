@@ -225,6 +225,7 @@ main {
 .mask {
   background-color: #000000;
   transition: opacity 1s ease-in-out;
+  overflow: hidden;
 }
 
 .back {
