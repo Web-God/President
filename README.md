@@ -35,7 +35,7 @@ Fin du jeu
 Le jeu se termine quand le joueur à trouver le nom du Président caché
 La photo, le nom du Président, et les dates du mandat se dévoilent avec un résumé de son histoire, le chiffre de la république, un lien "En svoir plus" et une anecdote
 
-
+https://www.udemy.com/course/javascript-basic-memory-game/learn/lecture/18277312#overview
 
 https://www.elysee.fr/la-presidence/les-presidents-de-la-republique-depuis-1848
 

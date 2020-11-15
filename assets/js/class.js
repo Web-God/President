@@ -100,7 +100,7 @@ let deathDate = new Date('September 3, 1877').toLocaleString('fr-FR', {
     day: 'numeric'
 });
 let adolphe = new President("Adolphe", "Thiers", birthDate, deathDate, "Il quitte le pouvoir, renversé par une Assemblée à majorité monarchique, hostile à sa conception de la République conservatrice");
-console.log(adolphe.render());
-console.log(adolphe.tips);
+// console.log(adolphe.render());
+// console.log(adolphe.tips);
 let patrice = new President("Patrice", "de Mac Mahon", "13/07/1808", "8/10/1893", "Deuxième gouvernement de Broglie.");
-console.log(patrice.render());
+// console.log(patrice.render());

@@ -239,4 +239,10 @@ main {
   font-weight: 300;
 }
 
+#start,
+#reset {
+  display: block;
+  margin: 1em;
+}
+
 /*# sourceMappingURL=style.css.map */
